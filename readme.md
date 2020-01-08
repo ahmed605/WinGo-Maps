@@ -57,8 +57,8 @@
 
 1. Clone the repository.
 2. Open the solution in Visual Studio.
-3. Right click on the solution file in Visual Studio solution explorer and add a new Class called `AppCore.cs`
-Then write this code in this class based on your *Google API information*: 
+3. Right click on the `WinGoMapsX`project in Visual Studio solution explorer and add a new Class called `AppCore.cs`
+Then write this code in this class and then replace `YouGMapsAPIKey` in line `31` with your *Google Maps API key*: 
 
 ```csharp
 using WinGoMapsX.ViewModel.SettingsView;
