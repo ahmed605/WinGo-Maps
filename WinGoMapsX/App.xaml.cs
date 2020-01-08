@@ -25,6 +25,7 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 using WinGoMapsX.ViewModel.PlacesControls;
 using WinGoMapsX.ViewModel.SettingsView;
+using UnhandledExceptionEventArgs = Windows.UI.Xaml.UnhandledExceptionEventArgs;
 
 namespace WinGoMapsX
 {
