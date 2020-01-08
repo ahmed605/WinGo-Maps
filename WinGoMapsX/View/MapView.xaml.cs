@@ -236,7 +236,7 @@ namespace WinGoMapsX.View
             });
         }
 
-        private async void RatePlace_Click(object sender, TappedRoutedEventArgs e) => await Launcher.LaunchUriAsync(new Uri("https://search.google.com/local/writereview?placeid=" + MapViewVM.LastRightTapPos));
+        private async void RatePlace_Click(object sender, TappedRoutedEventArgs e) => await Launcher.LaunchUriAsync(new Uri("https://search.google.com/local/writereview?placeid=" + MapViewVM.SearchResult.Result.PlaceId));
 
         private void MoreInfoHyperLink_Click(object sender, RoutedEventArgs e) => MapViewVM.MoreInfoVisibility = Visibility.Visible;
 
